@@ -4,7 +4,6 @@ This project implements a complete pipeline for training and evaluating a YOLOv8
 
 ## Project Overview
 
-This project demonstrates how to:
 - Train a YOLOv8 object detection model on a custom dataset
 - Evaluate model performance using standard metrics
 - Visualize training results and predictions
@@ -80,11 +79,13 @@ The results show that the model has learned to effectively detect both persons a
 To use this project:
 
 1. Ensure you have the required dependencies installed:
+
    ```
    pip install ultralytics==8.2.103
    ```
 
 2. The main notebook (`Notebook.ipynb`) contains the complete pipeline:
+
    - Data preparation
    - Model training
    - Evaluation
@@ -103,6 +104,7 @@ Example predictions on test images show the model's ability to detect persons an
 ## Future Improvements
 
 Potential areas for improvement:
+
 - Increase training epochs
 - Experiment with different model sizes (YOLOv8m, YOLOv8l)
 - Fine-tune hyperparameters
