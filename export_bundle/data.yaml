@@ -1,0 +1,4 @@
+nc: 2
+test: /content/data/test/images
+train: /content/data/train/images
+val: /content/data/val/images
